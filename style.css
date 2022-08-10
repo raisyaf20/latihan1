@@ -1,30 +1,29 @@
-p {
-   font-family: Arial, Helvetica, sans-serif;
-
+body {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
 }
-.table-header{
-   border-collapse: collapse;
-   width: 100%;
-   border: 1px solid #ddd;
-   
- }
-.tr-header {
-    text-align: center;
-    height:50%; 
-    background-color:white;
-     
- }
- 
-.td-header {
-   padding-top: 16px;
-   padding-bottom: 30px;
- }
- .table-registrasi {
-   border-collapse: collapse;
- }
- .table-registrasi tr td {
-    padding: 20px;
-   
-    text-align: right;
- }
- 
+.satu {
+  width: 100%;
+  height: 57px;
+  background-color: aquamarine;
+  box-sizing: border-box;
+  padding-top: 10px;
+}
+
+.satu ul li {
+  list-style-type: none;
+  display: inline;
+}
+.satu a {
+  text-decoration: none;
+}
+
+.table-registrasi {
+  border-collapse: collapse;
+}
+.table-registrasi tr td {
+  padding: 20px;
+
+  text-align: right;
+}
