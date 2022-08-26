@@ -1,14 +1,15 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: cursive;
+  font-family: "Oswald", sans-serif;
 }
 .satu {
+  position: fixed;
   width: 100%;
   height: 57px;
-  background-color: aquamarine;
+  background-color: rgb(61, 70, 67);
   box-sizing: border-box;
-  padding-top: 1px;
+  box-shadow: 0 0 5px black;
 }
 
 .satu ul li {
@@ -16,8 +17,10 @@ body {
   display: inline;
 }
 .satu a {
+  color: white;
+  margin-left: 10px;
   text-decoration: none;
-  font-size: 21px;
+  /* font-size: 21px; */
 }
 
 .table-registrasi {
@@ -25,6 +28,5 @@ body {
 }
 .table-registrasi tr td {
   padding: 20px;
-
   text-align: right;
 }
